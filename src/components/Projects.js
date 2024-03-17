@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/porti react.PNG";
 import projImg6 from "../assets/img/attend.PNG";
 import projImg7 from "../assets/img/htmlCss.PNG";
 import projImg8 from "../assets/img/porti css.PNG";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -20,16 +21,23 @@ export const Projects = () => {
       title: "Laravel project",
       description: "Home services website",
       imgUrl: projImg1,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/GHS" target="_blank"> show <ArrowRightCircle size={25} /></a>
+      
     },
     {
       title: "Laravel project",
       description: "Multi-vendor store",
       imgUrl: projImg2,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/VagaStore" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
     {
       title: "Laravel project",
       description: "Online store",
       imgUrl: projImg3,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/heinstore" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
  
   ];
@@ -39,11 +47,15 @@ export const Projects = () => {
       title: "React Project",
       description: "Electronic games exhibition",
       imgUrl: projImg4,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/Gaming-react-project-" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
     {
       title: "React Project",
       description: "Business portfolio",
       imgUrl: projImg5,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/Portfolio_PHP" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
 
  
@@ -53,16 +65,23 @@ export const Projects = () => {
       title: "Js Project",
       description: "Student tracking platform",
       imgUrl: projImg6,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/Attendance-Tracker-System-group6" target="_blank"> show <ArrowRightCircle size={25} /></a>
+
     },
     {
       title: "Css and Html Project",
       description: "Pet exhibition",
       imgUrl: projImg7,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/pets" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
     {
       title: "Css and Html Project",
       description: "Business portfolio",
       imgUrl: projImg8,
+      tag: <a style={{cursor:"pointer",textDecoration:"none",color:"white",}}
+      href="https://github.com/saifa3010/pets" target="_blank"> show <ArrowRightCircle size={25} /></a>
     },
 
  
